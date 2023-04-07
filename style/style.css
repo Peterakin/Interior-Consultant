@@ -1,0 +1,141 @@
+body {
+  background: #181719;
+}
+
+button {
+  box-sizing: border-box;
+  width: 102px;
+  height: 32px;
+  margin-top: 50px;
+  margin-left: 90px;
+  color: white;
+  background: transparent;
+  border: 1px solid #FFFFFF;
+  font-family: 'Crimson Pro', serif;
+}
+
+.nav {
+  display: flex;
+  margin-left: 55%;
+  list-style: none;
+  margin-top: -20px;
+}
+
+.nav li {
+  margin-left: 40px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav li .nav-item1 {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+#imgdiv{
+  color: white;
+  position: relative;
+}
+
+#sub{
+  position: absolute;
+  left: 50%;
+  top: 85%;
+  width: 290px;
+  height: 150px;
+  background: #181719;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#sub-img #img2{
+  position: absolute;
+  /* left: -210px;
+  top: -85px; */
+  right: 45%;
+  bottom: -10%;
+  border-radius: 50%;
+  padding: 100px;
+  height: 50px;
+}
+
+#sub-img{
+    display: flex;
+    margin-left: 70px;
+    margin-top: 7px;
+}
+
+#sub-p{
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    padding: 20px;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Crimson Pro', serif;
+}
+
+#sub-p1{
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: x-small;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#sub-p1 i{
+  color: #828282;
+}
+
+#imgdiv #img1{
+  height: 450px;
+  width: 600px;
+  margin-left: 110px;
+}
+
+#intro {
+  color: white;
+  margin-top: 10%;
+  margin-left: 20px;
+}
+
+#intro h1 {
+  padding-bottom: 5px;
+  width: 300px;
+  font-size: 300%;
+  font-weight: 200;
+  font-family: 'Crimson Pro', serif;
+}
+
+#intro p {
+  padding-bottom: 10px;
+  width: 250px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#intro a{
+  color: white;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: small;
+}
+
+.home {
+  display: flex;
+  margin: 120px 70px 0px 70px;
+}
+
+footer {
+  color: #A9A9A9;
+  text-align: center;
+  padding-top: 15%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+footer a{
+  color: #A9A9A9;
+  font-weight: bold;
+}
